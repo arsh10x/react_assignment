@@ -1,62 +1,72 @@
-
-
 .sidebar-right {
-    width: 310px;
-    padding: 20px;
-    box-sizing: border-box;
-  }
-  .sidebarRight_title{
-    display: flex;
-    gap:20px;
-    position: absolute;
-    top: 90px;
-    left: 1065px;
-    z-index: 1;
-    color: white;
-    padding: 5px 10px;
-    border-radius: 5px;
-    color: black;
-    margin-bottom: 40px; 
-  } 
-   
-  .profile-card {
-    position: relative;
-    margin-bottom: 20px;
-    border-radius: 8px;
-    overflow: hidden;
-    width: 100%; 
-  }
-  
-  .bg-image {
-    max-height: 600px; 
-    overflow-y: auto; 
-  }
-  
-  .profile-mini {
-    position: absolute;
-    top: 40px;
-    left: 10px;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    border: 2px solid #fff;
-  }
-  
-  .profile-info {
-    position: absolute;
-    bottom: 10px;
-    left: 10px;
-    color: #fff;
-  }
-  
-  .profile-name {
-    font-size: 16px;
-    font-weight: bold;
-    margin: 0;
-  }
-  
-  .profile-handle {
-    font-size: 14px;
-    margin: 0;
-  }
-  
+  width: 310px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.sidebarRight_title {
+  display: flex;
+  gap: 20px;
+  position: absolute;
+  top: 90px;
+  left: 1085px;
+  z-index: 1;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: black;
+  margin-bottom: 40px;
+}
+
+.profile-card {
+  position: relative;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  overflow: hidden;
+  width: 100%;
+}
+
+.bg-image {
+  max-height: 600px;
+  overflow-y: auto;
+}
+
+.profile-mini {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  top: 70px;
+  right: 0;
+  left: 10px;
+  position: absolute;
+  border-radius: 5px;
+  background-color: #ccc;
+}
+
+.profile-info {
+  display: inline-block;
+  margin-left: 10px;
+  color: #fff;
+  position: absolute;
+  top: 70px;
+  right: 0;
+  left: 50px;
+}
+
+.profile-name {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.profile-handle {
+  font-size: 14px;
+  margin: 0;
+}
+
+.footer {
+  font-size: 12px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: -10px;
+}

@@ -1,0 +1,39 @@
+.carosual {
+    display: flex;
+    width: 37.5rem;
+    height: 12.5rem;
+}
+
+.carosualItem {
+    margin: 0.625rem;
+}
+
+.carosualItem h1 {
+    font-size: 0.625rem;
+}
+
+.rating {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rating h2 {
+    font-size: 0.9375rem;
+}
+
+
+.carosualImg {
+    border-radius: 0.625rem;
+    height: 7.5rem;
+    width: 11.25rem;
+}
+.stars {
+    display: flex;
+  }
+  
+  .starIcon {
+    width: 10px; 
+    height: auto;
+    margin-right: 0.125rem; 
+  }

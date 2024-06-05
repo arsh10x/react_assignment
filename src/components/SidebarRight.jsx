@@ -29,6 +29,11 @@ const SidebarRight = () => {
           </div>
         </div>
       ))}
+        <div className="footer">
+        <span>Privacy </span>
+        <span>Terms of Service</span>
+        <span>Cookie Notice</span>
+        </div>
     </div>
     </>
   );
