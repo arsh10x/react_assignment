@@ -52,6 +52,7 @@
 .logout {
     display: flex;
     margin-top: 100px;
+    cursor: pointer;
 }
 
 .logoutText {

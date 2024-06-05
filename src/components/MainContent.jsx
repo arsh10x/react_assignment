@@ -31,7 +31,7 @@ const data = [
 const MainContent = () => {
   return (
    <div>
-    <div >
+    <div className="scrollableContainer" >
       {data.map((item, index) => (
         <div className="mainContentContainer" key={index}>
           <div className="mainContent">

@@ -1,62 +1,61 @@
 .navbar {
-    display: flex;
-    align-items: center;
-    justify-content: space-between; 
-    padding: 10px 20px;
-    border-radius: 10px;
-    margin-bottom: 20px;
-    
-  }
-  .logo {
-    font-size: 24px;
-    font-weight: bold;
-    background-color: #ffffff;
-    padding: 20px 60px;
-    border-radius: 10px;
-    width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; 
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
   
-  }
-  
-  .search-filter {
-    display: flex; 
-    background-color: #ffffff;
-    padding: 15px;
-    border-radius: 10px;
-    width: 590px;
-    margin: 0 10px;
-  }
+}
+.logos {
+  font-size: 24px;
+  font-weight: bold;
+  background-color: #ffffff;
+  padding: 20px 60px;
+  border-radius: 10px;
+  width: 100px;
 
-  .search-filter img{
-    padding: 4px;
-    width: 26px;
-    height: 26px;
-  }
-  
-  .searchbar {
-    flex: 1;
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-    margin-right: 10px;
-    border: none;
-    outline: none;
-  }
-  
-  .filters {
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    background-color: #ffffff;
-  }
-  
-  .becomeSeller {
-    font-weight: bold;
-    padding: 25px 70px;
-    background-color: #88c2bb;
-    border-radius: 10px;
-    outline: none;
-    border: none;
-    color: white; 
-  }
-  
+}
+
+.searchFilter {
+  display: flex; 
+  background-color: #ffffff;
+  padding: 15px;
+  border-radius: 10px;
+  width: 590px;
+  margin: 0 10px;
+}
+
+.search-filter img{
+  padding: 4px;
+  width: 26px;
+  height: 26px;
+}
+
+.searchbar {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+  border: none;
+  outline: none;
+}
+
+.filters {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #ffffff;
+}
+
+.becomeSeller {
+  font-weight: bold;
+  padding: 25px 70px;
+  background-color: #88c2bb;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  color: white; 
+}
