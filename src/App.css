@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #F5F5F5;
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 180px;
+}
+
+.content {
+    display: flex;
+    margin-left: 25px;
+}
+
+.sidebarLeft {
+    width: 180px;
+}
+
+.mainContent {
+    align-items: center;
+    justify-content: center;
+}
+
+.sidebarRight {
+    width: 200px;
+}

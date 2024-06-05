@@ -1,0 +1,60 @@
+.sidebarLeft {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color:#FFFFFF;
+    width: 180px;
+    height: 80vh;
+    margin-right: 20px;
+}
+
+.sidebarLeft ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+.sidebarLeft ul li {
+    margin: 10px;
+}
+
+.sidebarItem {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    cursor: pointer;
+    color: #8D8D8D;
+}
+
+
+
+.sidebarIcon {
+    width: 18px;
+    height: 18px;
+    margin-right: 10px;
+    fill: #8D8D8D;
+}
+
+.homeItem {
+    color: black;
+}
+
+.homeItem .sidebarIcon {
+    fill: black;
+}
+
+.logoutIcon {
+    padding: 10px;
+}
+
+.logout {
+    display: flex;
+    margin-top: 100px;
+}
+
+.logoutText {
+    padding: 6px;
+    margin-top: 1px;
+}
